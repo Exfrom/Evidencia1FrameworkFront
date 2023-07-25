@@ -1,0 +1,60 @@
+body{
+background-color: peachpuff; /* Cambia el del texto */
+}
+h1 {
+    color: mediumorchid; /* Cambia el del texto */
+    text-align: center;  /* Centra el texto */
+  }
+
+p{
+    font-size: 16px; /* Cambia el tamaño de la fuente*/
+    color: #0000FF;  /* Cambia el del texto */
+}
+button {
+    background-color: #4CAF50; /* Cambia el color de fondo del botón */  
+    color: white; /* Cambia el color del texto del botón */ 
+    padding: 10px 20px; /* Agrega un espaciado interno del boton*/ 
+    border: none;  /* Elimina el borde del botón */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */ 
+}
+  table {
+    border-collapse: collapse;   /* Combina los bordes de las celdas*/
+    width: 100%;   /* Ancho de la tabla al 100% del contenedor */
+}
+  
+th, td {
+    border: 1px solid black;  /* Añade un borde de 1 píxel a las celdas */
+    padding: 8px;  /* Agrega un espaciado interno de 8 píxeles a las celdas */
+    text-align: center; /* Centra el contenido de las celdas */
+}
+h2 {
+    color:blue/* Cambia el del texto */
+    font-size: 24px;  /* Tamaño de fuente para h2 */  
+}
+  
+  h3 {
+    color: #4CAF50;/* Cambia el del texto */
+    font-size: 20px;  /* Tamaño de fuente para h3 */  
+}
+  
+  h4 {
+    color:burlywood/* Cambia el del texto */
+    font-size: 18px; /* Tamaño de fuente para h4 */   
+}
+  
+  h5 {
+    color: chartreuse;/* Cambia el del texto */
+    font-size: 16px;  /* Tamaño de fuente para h5 */  
+}
+  
+  h6 {
+    color: chocolate;/* Cambia el del texto */
+    font-size: 14px;  /* Tamaño de fuente para h6 */  
+}
+  
+  
+  
+  
+  
+  
+  
