@@ -1,8 +1,8 @@
 body{
-background-color: peachpuff; /* Cambia el del texto */
+background-color: rgb(185, 250, 255); /* Cambia el del texto */
 }
 h1 {
-    color: mediumorchid; /* Cambia el del texto */
+    color: rgb(85, 93, 211); /* Cambia el del texto */
     text-align: center;  /* Centra el texto */
   }
 
@@ -48,11 +48,10 @@ h2 {
 }
   
   h6 {
-    color: chocolate;/* Cambia el del texto */
+    color: rgb(30, 210, 195);/* Cambia el del texto */
     font-size: 14px;  /* Tamaño de fuente para h6 */  
 }
-  
-  
+
   
   
   

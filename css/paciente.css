@@ -1,0 +1,12 @@
+
+
+body {
+  font-family: $fuente-principal;
+  color: $color-principal;
+  line-height: 1.5;
+}
+
+.contenedor {
+  max-width: 1170px;
+  margin: 0 auto 1rem;
+  padding: 1.5rem;

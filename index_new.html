@@ -4,37 +4,51 @@
 	<meta charset="utf-" />
 	<title>Mipagina</title>
 	<link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
  </head>
 
 <body>	
 	<h1>Registro de Usuario</h1>
 	<form>
-	 <ul>
-	  <li>
-	   <label for="name">Nombres:</label>
-	   <input type="text" id="name" name=user_name"/>
+		<fieldset>
+		  <legend>Información personal</legend>
+		  
+		  <label>Nombre:</label>
+		  <input type="text" name="name" id="name" placeholder="ingrese el nombre">
+		  
+		  <label>Apellido:</label>
+		  <input name="surname" id="surnme" placeholder="ingrese el apellido">
+		  
+		  <label>Edad:</label>
+		  <input type="number" name="age" id="age" placeholder="ingrese su edad">
+		  
+		  <label>Fecha de nacimiento:</label>
+		  <input type="date" name="birthname" id="birthname">
+		  
+		  <label>Email:</label>
+		  <input type="email" name="email" id="email" required>
+		  
+		 </fieldset>
+		  
+		<fieldset>
+		  <legend>Dirección</legend>
+		  
+		  <input type="text" name="street" id="street" placeholder="Calle">
+		  <input type="number" name="nro" id="nro" placeholder="Numero">
+		  <input type="text" name="city" id="city" placeholder="Ciudad">
+		  <input type="text" name="Departamento" id="Departamento" placeholder="Departamento">
+		</fieldset>
+		
+		<input type="submit" value="Enviar"> <br>
+	
+	 <!-- color -->
+	 <li class="fila">
+		<input type="color" id="color" value="#FF0000" onchange="document.querySelector('#color-output').value = value;" />
+		<label for="color" class="propiedad">Color preferido</label>
+		<output for="color" id="color-output">#FF0000</output>
 	  </li>
-	  <li>
-	   <label for="name">Apellidos:</label>
-	   <input type="text" id="name" name=user_name"/>
-	  </li>
-	  <li>
-	   <label for="name">Correo electronico:</label>
-	   <input type="text" id="name" name=user_name"/>
-	  </li>
-	  <li>
-	   <label for="name">Mensaje:</label>
-	   <input type="text" id="name" name=user_name"/>
-	  </li>
-	 </ul>
 	</form>
 	
-	<label for="contactchoice0">Elige tu color favorito:</label><br>
-
-	<label><input type="checkbox" id="cbox1" value="first_checkbox"/>azul</label><br>
-	<label><input type="checkbox" id="cbox2" value="first_checkbox"/>verde</label><br>
-	<label><input type="checkbox" id="cbox3" value="first_checkbox"/>morado</label><br>
-	<label><input type="checkbox" id="cbox4" value="first_checkbox"/>negro</label><br>
-</body>
-
+	
+</body>	
 </html>
